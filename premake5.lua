@@ -9,6 +9,8 @@ project "cxxopts"
   targetdir ("%{wks.location}/bin/" .. outputdir .. "/%{prj.name}")
   objdir ("%{wks.location}/build/" .. outputdir .. "%{prj.name}")
 
+  IncludeDir["cxxopts"] = "%{wks.location}/libs/cxxopts/include"
+
   includedirs {
     "%{IncludeDir.cxxopts}"
   }
