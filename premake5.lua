@@ -16,5 +16,6 @@ project "cxxopts"
   }
 
   files {
+    "premake5.lua",
     "include/cxxopts.hpp",
   }
